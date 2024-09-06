@@ -61,7 +61,6 @@ body {
   max-width: 1280px !important;
   margin: 0 auto !important;
   padding: 0 !important;
-  border: 1px solid #ddd;
 }
 .service-info {
   box-shadow: rgba(32, 43, 56, 0.05) 0px 0px 0px 0px;
@@ -136,7 +135,7 @@ body {
     @apply max-w-[1280px];
   }
   span {
-    @apply text-pr border-[1px] border-[#f9acac] md:border-none;
+    @apply text-pr border-[1px] border-[#f9acac] md:border-none lg:border-none;
   }
   .btn {
     @apply text-[white] bg-pr py-3 px-5 border-none rounded-full hover:bg-hover

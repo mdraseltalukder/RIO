@@ -631,6 +631,12 @@ span {
   }
 }
 
+@media (min-width: 1024px) {
+  span {
+    border-style: none;
+  }
+}
+
 .btn {
   border-radius: 9999px;
   border-style: none;
@@ -1385,7 +1391,6 @@ body {
   max-width: 1280px !important;
   margin: 0 auto !important;
   padding: 0 !important;
-  border: 1px solid #ddd;
 }
 
 .service-info {
