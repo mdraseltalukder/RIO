@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/flying-doves-group.png" type="image/x-icon">
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- output -->
+    <link rel="stylesheet" href="src/output.css" />
+    <!-- cdn -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css
+   ">
+    <title>RIO WEBSITE</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header relative container py-5 mb-10 px-5 flex justify-between items-center">
+    
+      <a class="text-a" href="./"><img src="img/logo.svg" alt="" /></a>
+<!-- menu -->
+      <div class="menu hidden lg:flex  ">
+        <a class="text-a" href="allpage.html" target="_blank">Home</a>
+        <a class="text-a" href="allpage.html"target="_blank">About</a>
+        <a class="text-a" href="allpage.html"target="_blank">Blog</a>
+
+
+      </div>
+      <div>
+        <button class="btn hidden lg:inline-block"> Get Started</button>
+      </div>
+        <!-- mobile menu  -->
+         <div class="mobile-menu flex flex-col py-5 items-center text-center lg:none gap-7 bg-[white] h-[60vh] w-[100%]  absolute -left-[100%]   -top-[100%]  ">
+          <div class="menu flex flex-col items-center text-center  ">
+            <a class="text-a" href="allpage.html" target="_blank">Home</a>
+            <a class="text-a" href="allpage.html"target="_blank">About</a>
+            <a class="text-a" href="allpage.html"target="_blank">Blog</a>
+    
+    
+          </div>
+          <div>
+            <button class="btn  "> Get Started</button>
+          </div>
+         </div>
+        <!-- mobile menu end -->
+         
+      
+     <div class="flex items-center z-20">
+      <span id="open-menu" class="text-3xl border-none text-[black] cursor-pointer inline-block lg:hidden"
+      ><i class="bx bx-menu"></i
+    ></span>
+    <span id="close-menu" class="text-2xl border-none text-[black] cursor-pointer hidden lg:hidden "
+      >
+      <i class="fa-solid fa-x"></i></span>
+     </div>
+      
+    </header>
+    <!-- hero -->
+    <section class="hero-sec container mt-10">
+      <h1 class="">
+        Save time &
+        <span class="text-pr leading-[-0.8px] border-[1px] border-[#f9acac]"
+          >work smarter</span
+        >
+        with AI Automation
+      </h1>
+      <p class="text-[18px]">
+        We help you automate your workflows, automate <br />
+        repetitive tasks, and elevate your business.
+      </p>
+      <button class="btn">Book Your Free Audit Call</button>
+      <div class="flex justify-around gap-[20px]">
+        <div class="images flex gap-[-20px]">
+          <img src="img/sFJggTzla8eMLg8n1AbKDQlyulU.jpg" alt="" />
+          <img src="img/JhbGle453RWF0QjzZnSxbtxRBiA.jpg" alt="" />
+          <img src="img/hCsV8dkBKP9VEaaIlJr8Bk89bX4.jpg" alt="" />
+        </div>
+        <div class="flex flex-col items-start">
+          <p class="text-[18px] font-[600]">200+ happy clients!</p>
+          <p class="text-p">Join them now -></p>
+        </div>
+      </div>
+    </section>
+    <!-- banner -->
+    <section class="container text-center py-10">
+      <div class="relative">
+        <img src="img/maxresdefault.webp" alt="" />
+        <strong
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          >
+        <a href="https://youtu.be/4TC0h4inSGU?si=RCt0OujRKRgQ5HfG" target="_blank"><i
+          class="bx bxl-youtube text-[80px] text-bg_btn hover:text-hover"
+        ></i
+      ></a>
+        </strong>
+      </div>
+      <p class="pt-3 text-p">Trusted by 40+ worldwide clients</p>
+    </section>
+    <!-- slider -->
+    <section class="slider-sec container">
+      <div
+        class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]"
+      >
+        <ul
+          class="flex w-full items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+        >
+          <li>
+            <img
+              src="img/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM0IiBoZWlnaHQ9IjMwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJzdmctMTI5OTMxNTM3Ml81OTUwIj48ZyBjbGlwLXBhdGg9InVybCgjc3ZnL.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="img/svg+xml;base64,PHN2ZyB3aWR0aD0iMTY2IiBoZWlnaHQ9IjMwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJzdmctNjE0MjI5MDYwXzQ5MDIiPjxnIGNsaXAtcGF0aD0idXJsKCNzdmctN.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="img/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iMzQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9InN2ZzQ5MDQxNDcyNl8zMzUiPjxnIGNsaXAtcGF0aD0idXJsKCNzdmc0OTA0M.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="img/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iMjIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9InN2Zy04ODg1MTgxOTJfMTI0NSI+PGcgY2xpcC1wYXRoPSJ1cmwoI3N2Zy04O.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="img/svg+xml;base64,PHN2ZyB3aWR0aD0iODEiIGhlaWdodD0iMzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9InN2Zy0xODg2NDI2Mzg0XzQ5MjciPjxnIGNsaXAtcGF0aD0idXJsKCNzdmctM.svg"
+              alt=""
+            />
+          </li>
+        </ul>
+        <ul
+          class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+          aria-hidden="true"
+        >
+          <li>
+            <img
+              src="img/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM0IiBoZWlnaHQ9IjMwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJzdmctMTI5OTMxNTM3Ml81OTUwIj48ZyBjbGlwLXBhdGg9InVybCgjc3ZnL.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="img/svg+xml;base64,PHN2ZyB3aWR0aD0iMTY2IiBoZWlnaHQ9IjMwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJzdmctNjE0MjI5MDYwXzQ5MDIiPjxnIGNsaXAtcGF0aD0idXJsKCNzdmctN.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="img/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iMzQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9InN2ZzQ5MDQxNDcyNl8zMzUiPjxnIGNsaXAtcGF0aD0idXJsKCNzdmc0OTA0M.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="img/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iMjIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9InN2Zy04ODg1MTgxOTJfMTI0NSI+PGcgY2xpcC1wYXRoPSJ1cmwoI3N2Zy04O.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="img/svg+xml;base64,PHN2ZyB3aWR0aD0iODEiIGhlaWdodD0iMzAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9InN2Zy0xODg2NDI2Mzg0XzQ5MjciPjxnIGNsaXAtcGF0aD0idXJsKCNzdmctM.svg"
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
+
+      
+    <!-- service -->
+    <section class="service-sec container flex flex-col gap-5">
+      <div
+        class="service flex flex-col items-center justify-center gap-6 text-center"
+      >
+        <p class="bg-[white] text-p px-5 py-2 text-pr font-semibold rounded-xl">
+          Services
+        </p>
+        <h2 class="text-h2 md:text-[55px] lg:text-[80px]">
+          <span class="text-h2 md:text-[50px] lg:text-[55px]">AI-powered</span> automation services
+        </h2>
+      </div>
+
+      <div class="flex flex-col items-center gap-4 mx-2 md:grid md:grid-cols-2">
+        <div
+          class="service-info flex flex-col items-start justify-center gap-4"
+        >
+          <img src="img/1.svg" alt="" />
+          <h3 class="text-h3  ">Customer Support Chatbots</h3>
+          <p class="text-p">
+            Streamline operations and enhance productivity with AI-driven
+            automation.
+          </p>
+          <div class="flex items-center gap-3">
+            <a class="text-pr text-a" href="">Learn more </a>
+            <img src="img/arrow.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="service-info flex flex-col items-start justify-center gap-4"
+        >
+          <img src="img/1.svg" alt="" />
+          <h3 class="text-h3 ">Customer Support Chatbots</h3>
+          <p>
+            Streamline operations and enhance productivity with AI-driven
+            automation.
+          </p>
+          <div class="flex items-center gap-3">
+            <a class="text-pr" href="">Learn more </a>
+            <img src="img/arrow.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="service-info flex flex-col items-start justify-center gap-4"
+        >
+          <img src="img/1.svg" alt="" />
+          <h3 class="text-h3 ">Customer Support Chatbots</h3>
+          <p>
+            Streamline operations and enhance productivity with AI-driven
+            automation.
+          </p>
+          <div class="flex items-center gap-3">
+            <a class="text-pr" href="">Learn more </a>
+            <img src="img/arrow.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="service-info flex flex-col items-start justify-center gap-4"
+        >
+          <img src="img/1.svg" alt="" />
+          <h3 class="text-h3  ">Customer Support Chatbots</h3>
+          <p>
+            Streamline operations and enhance productivity with AI-driven
+            automation.
+          </p>
+          <div class="flex items-center gap-3">
+            <a class="text-pr" href="">Learn more </a>
+            <img src="img/arrow.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- img -->
+    <section class="container flex flex-col gap-7 items-center md:items-start py-10 text-center lg:text-center lg:flex-row-reverse lg:gap-10">
+      <div class="px-5 py-10">
+        <img src="img/RIu7ujIfc3SKq931mOnyFqKaEaY.png" alt="" />
+      </div>
+      <!-- content -->
+      <div class="flex flex-col items-center justify-center text-center gap-5 md:text-left md:items-start ">
+        <div class="flex flex-col items-center md:items-start gap-5">
+          <p class="bg-[white] px-5 py-2 text-pr font-semibold rounded-xl">
+            Content block
+          </p>
+          <h2 class="text-h2 md:text-[50px] lg:text-[55px]">
+            Workflows with our AI automation
+            <span class="text-pr text-h2 md:text-[50px] lg:text-[55px]">expertise</span>
+          </h2>
+          <p>
+            Revolutionize tasks, reduce errors, and boost efficiency with
+            intelligent technology, streamlining operations for unparalleled
+            productivity.
+          </p>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center gap-3">
+          <img src="img/cheak.svg" alt="" />
+          <p class="font-semibold text-[#202b38]">Functional sections</p>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center gap-3">
+          <img src="img/cheak.svg" alt="" />
+          <p class="font-semibold text-[#202b38]">Easy to customize</p>
+        </div>
+        <button class="btn">Book Your Free Audit Call</button>
+      </div>
+    </section>
+    <!-- block -->
+    <section
+      class="block-sec container px-5 py-20 flex flex-col items-center text-center lg:flex-row lg:gap-10"
+    >
+      <div class="mb-10">
+        <img src="img/cbIdsCeoBI32SK33j3fHyQ7Fb4.png" alt="" />
+      </div>
+      <div>
+      <div class="flex flex-col items-center gap-5  md:items-start  w-full pb-7">
+        <p class="bg-[white] px-5 py-2 text-pr font-semibold rounded-xl">
+          Content block
+        </p>
+        <h2 class="lg:text-left text-h2 md:text-[50px] lg:text-[55px]">Harnessing AI for business success</h2>
+      </div>
+      <div class="flex flex-col gap-5">
+        <div
+          class="block-info flex flex-col md:flex-row gap-5 md:justify-between  items-center justify-center text-center border border-[#dcdcdc] p-4 ] rounded-xl hover:bg-pr duration-300 md:text-left"
+        >
+          <img
+            class="p-3 bg-[white] rounded-xl"
+            src="img/menu icon.svg"
+            alt=""
+            width="55px"
+          />
+          <h4 class="text-h4">Boost efficiency and cut costs with AI-powered automation</h4>
+          <img src="img/right arrow.svg" alt="" />
+        </div>
+        <div
+          class="flex flex-col items-center md:flex-row gap-5 md:justify-between  justify-center text-center border border-[#dcdcdc] p-4 ] rounded-xl hover:bg-pr duration-300 md:text-left"
+        >
+          <img
+            class="p-3 bg-[white] rounded-xl"
+            src="img/menu icon.svg"
+            alt=""
+            width="55px"
+          />
+          <h4 class="text-h4">Boost efficiency and cut costs with AI-powered automation</h4>
+          <img src="img/right arrow.svg" alt="" />
+        </div>
+        <div>
+          <p class="text-[18px] mb-5 md:justify-start md:text-left ">
+            “Couldn’t be happier with the work the guys from XYZ Agency did for
+            us. Made sales 10x more efficient.”
+          </p>
+          <div class="flex items-center justify-center gap-5  md:justify-start ">
+            <img
+              class="object-cover rounded-[100%] h-16 w-16"
+              src="img/G3MEsoXQjALKfj8Ya1mIWgFMuc.jpg"
+              alt=""
+            />
+            <div class="flex flex-col items-start justify-center">
+              <p class="text-[18px ] font-semibold font-Grotesk">
+                William James
+              </p>
+              <p>CEO, XYZ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- testimonial -->
+    <section
+      class="testimonial-sec container flex flex-col items-center text-center gap-5 my-10"
+    >
+      <p class="bg-[white] px-5 py-2 text-pr font-semibold rounded-xl">
+        Testimonials
+      </p>
+      <h2 class="text-h2 md:text-[50px] lg:text-[55px]">Leading the way in AI automation</h2>
+
+      <div
+        class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]"
+      >
+        <ul
+          class="testimonial h-[40vh] flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+        >
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+        </ul>
+        <ul
+          class="testimonial h-[40vh] flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+          aria-hidden="true"
+        >
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col items-start text-left gap-5 w-[90%] p-5 bg-white rounded-xl"
+            >
+              <div class="flex items-start gap-5">
+                <img
+                  class="object-cover rounded-[100%] h-16 w-16"
+                  src="img/0OjdTxpLdqgvqtgZDfcw2aJjgOU.jpg"
+                  alt=""
+                />
+                <div class="flex flex-col items-start justify-center">
+                  <p class="text-[18px ] font-semibold font-Grotesk">
+                    Jane Lewis
+                  </p>
+                  <p>Marketing Director @ ABC</p>
+                </div>
+              </div>
+
+              <p class="mb-10">
+                "We've tried countless of agencies but this has been the best
+                experience by far…"
+              </p>
+
+              <img src="img/starsvg.svg" alt="" width="150px" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- process -->
+    <section
+      class="process container px-5 my-16 flex flex-col lg:flex-row lg:items-start items-center gap-5"
+    >
+      <div class="flex flex-col items-start justify-center gap-5">
+        <p class="bg-[white] px-5 py-2 text-pr font-semibold rounded-xl">
+          Process
+        </p>
+        <h2 class="text-h2 md:text-[50px] lg:text-[55px]">How to get started</h2>
+        <p>
+          Unleash the power of AI automation to transform routine processes,
+          ensuring precision, 24/7 availability, and significant cost savings.
+        </p>
+        <button class="btn">Book Your Free Audit Call</button>
+      </div>
+      <div class="flex flex-col items-center w-full gap-4 mx-2 lg:h-[100vh] overflow-y-scroll">
+        <div
+          class="service-info flex flex-col items-start justify-center gap-4 w-full"
+        >
+          <span class="border-none text-[30px] text-pr font-semibold">01</span>
+          <h3 class="text-h3  ">Book a discovery call</h3>
+          <p>
+            Book your free discovery call by clicking one of the buttons on this
+            page.
+          </p>
+          <div class="flex items-center gap-3">
+            <a class="text-pr" href="">Get Started</a>
+            <img src="img/arrow.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="service-info flex flex-col items-start justify-center gap-4 w-full"
+        >
+          <span class="border-none text-[30px] text-pr font-semibold">02</span>
+          <h3 class="text-h3 ">Book a discovery call</h3>
+          <p>
+            Book your free discovery call by clicking one of the buttons on this
+            page.
+          </p>
+          <div class="flex items-center gap-3">
+            <a class="text-pr" href="">Get Started </a>
+            <img src="img/arrow.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="service-info flex flex-col items-start justify-center gap-4 w-full"
+        >
+          <span class="border-none text-[30px] text-pr font-semibold">03</span>
+          <h3 class="text-h3">Book a discovery call</h3>
+          <p>
+            Book your free discovery call by clicking one of the buttons on this
+            page.
+          </p>
+          <div class="flex items-center gap-3">
+            <a class="text-pr" href="">Get Started </a>
+            <img src="img/arrow.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="service-info flex flex-col items-start justify-center gap-4 w-full"
+        >
+          <span class="border-none text-[30px] text-pr font-semibold">04</span>
+          <h3 class="text-h3 ">Book a discovery call</h3>
+          <p>
+            Book your free discovery call by clicking one of the buttons on this
+            page.
+          </p>
+          <div class="flex items-center gap-3">
+            <a class="text-pr" href="">Get Started </a>
+            <img src="img/arrow.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- toggole -->
+    <section class="toggle-sec container px-5 my-20">
+      <div class="flex flex-col items-center justify-center gap-5 p-6">
+        <p class="bg-[white] px-5 py-2 text-pr font-semibold rounded-xl">
+          Pricing
+        </p>
+        <h2 class="text-h2 md:text-[50px] lg:text-[55px]">Plans to Fit Your Business</h2>
+        <div class="flex items-center gap-2">
+          <p class="text-[#202b38] font-semibold text-[18px]">Monthly</p>
+          <label class="inline-flex items-center cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer" />
+            <div
+              class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"
+            ></div>
+            <span
+              class="text-sm font-medium text-gray-900 dark:text-gray-300"
+            ></span>
+          </label>
+          <p class="text-[#b1b1b1] font-semibold text-[18px]">Yearly</p>
+        </div>
+      </div>
+      <div class="px-5 my-20 lg:flex">
+      <div class="bg-[white] rounded-2xl p-2 w-full">
+        <div
+          class="toggle bg-[#f6f6f7] rounded-2xl p-5 flex flex-col items-center gap-5 py-10"
+        >
+          <h4  class="text-h4">pro</h4>
+          <div>
+            <h1 class="text-[55px]  ">$199/m</h1>
+            <p class="text-[18px] pt-2">Price breakdown here</p>
+          </div>
+          <button class="btn w-full">Get Started</button>
+          <p>
+            Got questions?
+            <span class="text-[#434446] font-[400]">Talk to an expert.</span>
+          </p>
+        </div>
+        <div class="flex flex-col items-start gap-3 py-8">
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+        </div>
+
+        <div class="w-full divide-y rounded divide-slate-200">
+          <details class="p-4 mb-7 group bg-[#f6f6f7]">
+            <summary
+              class="[&::-webkit-details-marker]:hidden relative pr-8 list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900 font-semibold text-[18px]"
+            >
+              Optional add-ons
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="absolute right-0 w-6 h-6 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-labelledby="title-ac02 desc-ac02"
+              >
+                <title id="title-ac02">Open icon</title>
+                <desc id="desc-ac02">
+                  icon that represents the state of the summary
+                </desc>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </summary>
+            <p class="mt-4 text-slate-500">Placeholder - $400/yr</p>
+            <p class="mt-4 text-slate-500">Placeholder - $400/yr</p>
+            <p class="mt-4 text-slate-500">Placeholder - $400/yr</p>
+          </details>
+        </div>
+      </div>
+      <div class="bg-[white] rounded-2xl p-2 w-full">
+        <div
+          class="toggle bg-[#f6f6f7] rounded-2xl p-5 flex flex-col items-center gap-5 py-10"
+        >
+          <div class="flex items-center gap-3 justify-center">
+            <h4  class="text-h4">Pro</h4>
+            <span
+              class="border-none text-h4 bg-pr font-medium px-4 rounded-full text-white"
+              >✨ popular</span
+            >
+          </div>
+
+          <div>
+            <h1 class="text-[55px]">$599/m</h1>
+            <p class="text-[18px] pt-2">Price breakdown here</p>
+          </div>
+          <button class="btn w-full">Get Started</button>
+          <p class="text-p">
+            Got questions?
+            <span class="text-[#434446] font-[400] text-p ">Talk to an expert.</span>
+          </p>
+        </div>
+        <div class="flex flex-col items-start gap-3 py-8">
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+        </div>
+
+        <div class="w-full divide-y rounded divide-slate-200">
+          <details class="p-4 mb-7 group bg-[#f6f6f7]">
+            <summary
+              class="[&::-webkit-details-marker]:hidden relative pr-8 list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900 font-semibold text-[18px]"
+            >
+              Optional add-ons
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="absolute right-0 w-6 h-6 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-labelledby="title-ac02 desc-ac02"
+              >
+                <title id="title-ac02">Open icon</title>
+                <desc id="desc-ac02">
+                  icon that represents the state of the summary
+                </desc>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </summary>
+            <p class="mt-4 text-p  text-slate-500">Placeholder - $400/yr</p>
+            <p class="mt-4 text-p text-slate-500">Placeholder - $400/yr</p>
+            <p class="mt-4 text-p text-slate-500">Placeholder - $400/yr</p>
+          </details>
+        </div>
+      </div>
+      <div class="bg-[white] rounded-2xl p-2 w-full">
+        <div
+          class="toggle bg-[#f6f6f7] rounded-2xl p-5 flex flex-col items-center gap-5 py-10"
+        >
+          <h4  class="text-h4">Premium</h4>
+          <div>
+            <h1 class="text-[55px] ">$499/m</h1>
+            <p class="text-[18px] pt-2">Price breakdown here</p>
+          </div>
+          <button class="btn w-full">Get Started</button>
+          <p class="text-p">
+            Got questions?
+            <span class="text-[#434446] text-p font-[400]">Talk to an expert.</span>
+          </p>
+        </div>
+        <div class="flex flex-col items-start gap-3 py-8">
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="img/blue cheak.svg" alt="" width="20px" />
+            <p class="text-[18px]">Feature here</p>
+          </div>
+        </div>
+
+        <div class="w-full divide-y rounded divide-slate-200">
+          <details class="p-4 mb-7 group bg-[#f6f6f7]">
+            <summary
+              class="[&::-webkit-details-marker]:hidden relative pr-8 list-none cursor-pointer text-slate-700 focus-visible:outline-none transition-colors duration-300 group-hover:text-slate-900 font-semibold text-[18px]"
+            >
+              Optional add-ons
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="absolute right-0 w-6 h-6 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-labelledby="title-ac02 desc-ac02"
+              >
+                <title id="title-ac02">Open icon</title>
+                <desc id="desc-ac02">
+                  icon that represents the state of the summary
+                </desc>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </summary>
+            <p class="mt-4 text-p text-slate-500">Placeholder - $400/yr</p>
+            <p class="mt-4 text-p text-slate-500">Placeholder - $400/yr</p>
+            <p class="mt-4 text-p text-slate-500">Placeholder - $400/yr</p>
+          </details>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- faq -->
+    <section class="faq container px-5 my-16">
+      <div class="flex flex-col items-center justify-center text-center gap-5 p-6 ">
+        <p class="bg-[white] px-5 py-2 text-pr text-p font-semibold rounded-xl">FAQ</p>
+        <h2 class="text-h2 md:text-[50px] lg:text-[55px]">
+          You’ve got questions, we’ve got <br />
+          <span class="text-h2 md:text-[50px] lg:text-[55px] lg:border-none">answers</span>
+        </h2>
+      </div>
+
+      <div class="w-[90%] lg:w-[80%] divide-y rounded divide-slate-200 m-auto">
+        <details class="p-4 group border border-[#ddd] rounded-lg">
+          <summary
+            class="[&::-webkit-details-marker]:hidden relative flex gap-4 pr-8  list-none cursor-pointer text-slate-700 focus-visible:outline-none group-hover:text-slate-800 text-[18px] font-semibold"
+          >
+            
+              <title id="title-ac11">Leading icon</title>
+      
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+              />
+            </svg>
+            How can I tell if using AI is the right solution for my problem?
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute right-0 w-6 h-6 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-labelledby="title-ac12 desc-ac12"
+            >
+              <title id="title-ac12">Open icon</title>
+              <desc id="desc-ac12">
+                icon that represents the state of the summary
+              </desc>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+          </summary>
+          <p class="text-p  mt-4 text-slate-500">
+            Figuring out which process to enhance using AI can be tricky for
+            business people. If you have a business problem where you feel that
+            the solution might be hidden in data and can't be solved with simple
+            rules, AI could be the answer. <br />
+            <br />
+            To define an AI use case, you'll need the help of an AI team, the
+            person who knows the most about the issue (the problem owner), and
+            technical specialists who understand how to deal with the problem in
+            the technical world.
+          </p>
+        </details>
+        <details class="p-4 group border border-[#ddd] rounded-lg">
+          <summary
+            class="[&::-webkit-details-marker]:hidden relative flex gap-4 pr-8  list-none cursor-pointer text-slate-700 focus-visible:outline-none group-hover:text-slate-800 text-[18px] font-semibold"
+          >
+            
+              <title id="title-ac11">Leading icon</title>
+      
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+              />
+            </svg>
+            How can I tell if using AI is the right solution for my problem?
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute right-0 w-6 h-6 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-labelledby="title-ac12 desc-ac12"
+            >
+              <title id="title-ac12">Open icon</title>
+              <desc id="desc-ac12">
+                icon that represents the state of the summary
+              </desc>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+          </summary>
+          <p class="mt-4 text-slate-500 text-p ">
+            Figuring out which process to enhance using AI can be tricky for
+            business people. If you have a business problem where you feel that
+            the solution might be hidden in data and can't be solved with simple
+            rules, AI could be the answer. <br />
+            <br />
+            To define an AI use case, you'll need the help of an AI team, the
+            person who knows the most about the issue (the problem owner), and
+            technical specialists who understand how to deal with the problem in
+            the technical world.
+          </p>
+        </details>
+        <details class="p-4 group border border-[#ddd] rounded-lg">
+          <summary
+            class="[&::-webkit-details-marker]:hidden relative flex gap-4 pr-8  list-none cursor-pointer text-slate-700 focus-visible:outline-none group-hover:text-slate-800 text-[18px] font-semibold"
+          >
+            
+              <title id="title-ac11">Leading icon</title>
+      
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+              />
+            </svg>
+            How can I tell if using AI is the right solution for my problem?
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute right-0 w-6 h-6 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-labelledby="title-ac12 desc-ac12"
+            >
+              <title id="title-ac12">Open icon</title>
+              <desc id="desc-ac12">
+                icon that represents the state of the summary
+              </desc>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+          </summary>
+          <p class="mt-4 text-slate-500 text-p ">
+            Figuring out which process to enhance using AI can be tricky for
+            business people. If you have a business problem where you feel that
+            the solution might be hidden in data and can't be solved with simple
+            rules, AI could be the answer. <br />
+            <br />
+            To define an AI use case, you'll need the help of an AI team, the
+            person who knows the most about the issue (the problem owner), and
+            technical specialists who understand how to deal with the problem in
+            the technical world.
+          </p>
+        </details>
+        <details class="p-4 group border border-[#ddd] rounded-lg">
+          <summary
+            class="[&::-webkit-details-marker]:hidden relative flex gap-4 pr-8  list-none cursor-pointer text-slate-700 focus-visible:outline-none group-hover:text-slate-800 text-[18px] font-semibold"
+          >
+            
+              <title id="title-ac11">Leading icon</title>
+      
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+              />
+            </svg>
+            How can I tell if using AI is the right solution for my problem?
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute right-0 w-6 h-6 transition duration-300 top-1 stroke-slate-700 shrink-0 group-open:rotate-45"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-labelledby="title-ac12 desc-ac12"
+            >
+              <title id="title-ac12">Open icon</title>
+              <desc id="desc-ac12">
+                icon that represents the state of the summary
+              </desc>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+          </summary>
+          <p class="mt-4 text-slate-500 text-p ">
+            Figuring out which process to enhance using AI can be tricky for
+            business people. If you have a business problem where you feel that
+            the solution might be hidden in data and can't be solved with simple
+            rules, AI could be the answer. <br />
+            <br />
+            To define an AI use case, you'll need the help of an AI team, the
+            person who knows the most about the issue (the problem owner), and
+            technical specialists who understand how to deal with the problem in
+            the technical world.
+          </p>
+        </details>
+      </div>
+    </section>
+    <!-- about -->
+     <section class=" about container  py-12 px-5 rounded-xl box-border">
+      <div class="flex flex-col items-center justify-center text-center gap-5 p-6  ">
+        <p class="bg-[#303e4f] px-5 py-2 text-pr text-p  font-semibold rounded-xl">
+          Testimonials</p>
+        <h2 class="text-[white] text-h2 md:text-[50px] lg:text-[55px]">
+          Ready to
+          <span class="text-h2 md:text-[50px] lg:text-[55px] border-none"> Get Started?</span>
+        </h2>
+        <p class="text-[white] text-p ">
+          Experience the future of business operations with AI automation—increased speed, accuracy, and adaptability, driving overall productivity gains.</p>
+          <button class="btn">Book Your Free Audit Call</button>
+      </div>
+      <div >
+        <img class="m-auto" src="img/33ctg4SZtD9gAAbetHuuLUj6TE.png" alt="" width="70px">
+      </div>
+      
+      <div class="flex flex-col items-center lg:flex-row lg:justify-between text-center justify-center gap-5 mt-10 p-6 ">
+        
+        <p  class="text-white text-p ">Build a powerful agency site with Framer.</p>
+        <div class="links text-[white] flex gap-10  ">
+          <a class="text-a" href="">About</a>
+          <a class="text-a" href="">Contact</a>
+          <a class="text-a" href="">Blog</a>
+        </div>
+        <div class="icons flex items-center gap-4 text-[white]">
+          <strong><i class='bx bxl-facebook-square'></i></strong>
+          <strong><i class='bx bxl-linkedin' ></i></strong>
+          <strong><i class='bx bxl-twitter' ></i></strong>
+        </div>
+      </div>
+
+     </section>
+     <!-- footer -->
+      <footer class="container px-5 text-center flex flex-col md:flex-row md:justify-between gap-3 py-5">
+        <p>© Mont Limited 2023. All rights reserved.</p>
+        <p>Designed by MD Rasel
+
+        </p>
+      </footer>
+      <script src="java.js"></script>
+  </body>
+</html>
